@@ -43,7 +43,6 @@ class RelatedProductAdminControllerTest extends AbstractAdminWebTestCase
      */
     public function testCreateRelatedProduct()
     {
-
         $faker = $this->getFaker();
         $content = $faker->word;
         $childProductId = 1;
